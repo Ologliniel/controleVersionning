@@ -5,6 +5,10 @@ Public Class User
 	String login;
 	String password;
 
+	public User(){
+		ArrayList<Droits> listeDroits = new ArrayList<Droits>();
+	}
+
 
 Public User() {
 
