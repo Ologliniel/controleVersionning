@@ -6,6 +6,18 @@ Public Class User
 	String password;
 
 
+Public User() {
+
+}
+
+Public User(String nom, String prenom, String login, String password) {
+	this.nom = nom;
+	this.prenom = prenom;
+	this.login = login;
+	this.password = password;
+}
+
+
 public String getNom() {
 	return this.nom;
 }
