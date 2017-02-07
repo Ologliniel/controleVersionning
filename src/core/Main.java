@@ -1,4 +1,5 @@
 import java.util.ResourceBundle;
+import domaine.properties.conf.prog;
 
 public class Main {
     public static void main(String args[]) {
