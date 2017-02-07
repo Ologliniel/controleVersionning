@@ -17,6 +17,17 @@ public class Main {
         user2.addDroit(droit3);
         user2.addDroit(droit4);
         
+        try {
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =1;");
+		} catch (Exception e) {
+			
+		}
+        try {
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =2;");
+		} catch (Exception e) {
+			
+		}
+        
         MySQLAccess.getInstance().updateQuery("INSERT INTO user VALUES"
         		+ "(1,'toto', 'toto', 'toto', 'toto'),"
         		+ "(2,'tata', 'tata', 'tata', 'tata'),"
@@ -29,7 +40,6 @@ public class Main {
         		+ "(4,4,'nul','poulet','braisé'),"
 				);
 
-        MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =1;");
-        MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =2;");
+    
     }
 }
