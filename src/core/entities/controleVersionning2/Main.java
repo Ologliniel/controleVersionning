@@ -44,6 +44,9 @@ public class Main {
         		+ "(4,4,'nul','poulet','braisé'),"
 				);
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of 29c14e6... Suppression des users deja en place
     }
 }
