@@ -17,4 +17,11 @@ public class Main {
 			return null;
 		}
     }
+    
+    public static void affichageSurConsole() {
+    	String readUser;
+    	String affichUser;
+    	 
+    	
+    }
 }
