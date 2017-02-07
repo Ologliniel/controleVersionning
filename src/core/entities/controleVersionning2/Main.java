@@ -29,5 +29,7 @@ public class Main {
         		+ "(4,4,'nul','poulet','braisé'),"
 				);
 
+        MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =1;");
+        MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =2;");
     }
 }
