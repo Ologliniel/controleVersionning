@@ -31,7 +31,10 @@ public class User
 	{
 		this.listeDroits.remove(droit);
 	}
-	
+
+	public void ToString () {
+		
+	}
 	
 	public String getNom() {
 		return this.nom;
