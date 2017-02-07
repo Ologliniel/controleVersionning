@@ -18,6 +18,9 @@ public class User
 		this.password = password;
 	}
 
+	public void ToString () {
+		
+	}
 	
 	public String getNom() {
 		return this.nom;
