@@ -1,15 +1,3 @@
-commit 29093b6b2f08fbd082b25d4e7b8f2b3be354061d
-Author: francois Rivolet <francois.rivolet@hotmail.fr>
-Date:   Tue Jan 10 16:39:42 2017 +0100
-
-    update Class Droits : parameters
-
-commit 8dbeb3fb65789afa6b52cef679422f6c0ee9b1ae
-Author: francois Rivolet <francois.rivolet@hotmail.fr>
-Date:   Tue Jan 10 16:29:57 2017 +0100
-
-     update Class User + add Class Droits
-
 commit 861d6aab36e4d8c47c975755566860da2286aa44
 Author: Ologliniel <delphine.bourdelle@hotmail.fr>
 Date:   Tue Jan 10 15:57:47 2017 +0100

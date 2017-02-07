@@ -1,12 +1,21 @@
-Public Class Droits
+package controleVersionning2;
+
+public class Droits
 {
-	int niveau
-	String severite
-	String nom
-	String societe
+	private int niveau;
+	private String severite;
+	private String nom;
+	private String societe;
+	
+	Droits(int niveau, String severite, String nom, String societe) {
+		this.niveau = niveau;
+		this.severite = severite;
+		this.nom = nom;
+		this.societe = societe;
+	}
 
 	public int getNiveau() {
-		return this.password;
+		return this.niveau;
 	}
 
 	public void setNiveau(int niveau) {
