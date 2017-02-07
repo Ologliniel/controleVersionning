@@ -4,6 +4,7 @@ Public Class User
 	String prenom;
 	String login;
 	String password;
+	private ArrayList<Droits> listeDroits;
 
 	public User(){
 		ArrayList<Droits> listeDroits = new ArrayList<Droits>();
@@ -19,8 +20,8 @@ Public User(String nom, String prenom, String login, String password) {
 	this.prenom = prenom;
 	this.login = login;
 	this.password = password;
+	this.listeDroits = new ArrayList<Droits>();
 }
-
 
 public String getNom() {
 	return this.nom;
@@ -52,6 +53,10 @@ public void setLogin(String login) {
 
 public void setPassword(String password) {
 	this.password = password;
+}
+
+public void addDroit(Droits droit){
+	
 }
 
 
