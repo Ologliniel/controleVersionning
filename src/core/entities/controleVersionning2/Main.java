@@ -19,11 +19,15 @@ public class Main {
         
         try {
         	MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =1;");
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =2;");
 		} catch (Exception e) {
 			
 		}
         try {
-        	MySQLAccess.getInstance().updateQuery("DELETE FROM user where user.id =2;");
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM droit where user.id =1;");
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM droit where user.id =2;");
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM droit where user.id =3;");
+        	MySQLAccess.getInstance().updateQuery("DELETE FROM droit where user.id =4;");
 		} catch (Exception e) {
 			
 		}
