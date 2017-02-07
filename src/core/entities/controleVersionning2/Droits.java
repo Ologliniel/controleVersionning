@@ -48,5 +48,12 @@ public class Droits
 		this.societe = societe;
 	}
 
+	@Override
+	public String toString() {
+		return "AU FORMAT JSON"
+				+ "Droits [id=" + id + ", niveau=" + niveau + ", severite=" + severite + ", nom=" + nom + ", societe="
+				+ societe + "]";
+	}
+
 	
 }
