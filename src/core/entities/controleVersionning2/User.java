@@ -5,13 +5,15 @@ import java.util.ArrayList;
 public class User
 {
 
+	private int id;
 	private String nom;
 	private String prenom;
 	private String login;
 	private String password;
 	private ArrayList<Droits> listeDroits;
 
-	public User(String nom, String prenom, String login, String password) {
+	public User(int id, String nom, String prenom, String login, String password) {
+		this.id = id;
 		this.nom = nom;
 		this.prenom = prenom;
 		this.login = login;
@@ -66,6 +68,16 @@ public class User
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+
 
 
 

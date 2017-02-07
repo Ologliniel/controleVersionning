@@ -2,12 +2,14 @@ package controleVersionning2;
 
 public class Droits
 {
+	private int id;
 	private int niveau;
 	private String severite;
 	private String nom;
 	private String societe;
 	
-	Droits(int niveau, String severite, String nom, String societe) {
+	Droits(int id, int niveau, String severite, String nom, String societe) {
+		this.id = id;
 		this.niveau = niveau;
 		this.severite = severite;
 		this.nom = nom;
