@@ -1,12 +1,13 @@
-Public Class Droits
+
+public class Droits
 {
-	int niveau
-	String severite
-	String nom
-	String societe
+	private int niveau;
+	private String severite;
+	private String nom;
+	private String societe;
 
 	public int getNiveau() {
-		return this.password;
+		return this.niveau;
 	}
 
 	public void setNiveau(int niveau) {
