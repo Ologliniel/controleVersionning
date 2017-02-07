@@ -3,5 +3,6 @@
 	<classpathentry excluding="entities/" kind="src" path="src/core"/>
 	<classpathentry kind="src" path="src/core/entities"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Ologliniel/Desktop/Imie/DL_Web/Versionning/controle/jackson-all-1.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
